@@ -1,0 +1,13 @@
+.hidden {
+    display: none;
+}
+
+.disabled {
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+#car-img {
+    width: 300px;
+    height: auto;
+}
