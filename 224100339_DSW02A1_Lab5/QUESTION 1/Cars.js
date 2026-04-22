@@ -30,7 +30,7 @@ window.onload = function () {
     const correctSpan = document.getElementById("correct");
     const totalSpan = document.getElementById("total");
 
-    // Populate dropdown
+    // populate dropdown
     makes.forEach((make, index) => {
         let option = document.createElement("option");
         option.value = make;
@@ -49,7 +49,7 @@ window.onload = function () {
         guessBtn.classList.remove("disabled");
     }
 
-    // Initial load
+    // initial load
     loadRandomCar();
 
     guessBtn.onclick = function () {
